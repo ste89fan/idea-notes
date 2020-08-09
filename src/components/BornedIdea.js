@@ -22,17 +22,17 @@ const BornedIdea = ({
       <Container className="categoryField">
         <Row className="bornedHeader">
           <Col className="text-center" md={4}>
+            <label className="bornedHeaderElements">
+              category : {ideaCategory}
+            </label>
+          </Col>
+          <Col className="text-center" md={4}>
             <label className="bornedHeaderElements">order number :</label>
             {number}{" "}
           </Col>
           <Col className="text-center" md={4}>
             <label className="bornedHeaderElements">date :</label>
             {date}{" "}
-          </Col>
-          <Col className="text-center" md={4}>
-            <label className="bornedHeaderElements">
-              category : {ideaCategory}
-            </label>
           </Col>
         </Row>
 

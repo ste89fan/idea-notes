@@ -18,7 +18,7 @@ const CreateIdea = ({
       <Container className="creativeContainer">
         <form onSubmit={handleSubmit}>
           <Row className="creativeRows">
-            <Col>
+            <Col md={6}>
               <label className="creativeBodyElements">category :</label>
               <select onChange={handleSelect} value={category}>
                 <option></option>
@@ -39,9 +39,7 @@ const CreateIdea = ({
                 </option>
               </select>
             </Col>
-          </Row>
-          <Row>
-            <Col className="shortTitleCol">
+            <Col md={6} className="shortTitleCol">
               <label className="creativeBodyElements">short tittle :</label>
               <input
                 value={shortTitle}
