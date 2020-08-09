@@ -1,0 +1,63 @@
+.title {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.navDiv {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.categoryField {
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.bornedDiv {
+  margin-top: 25px;
+}
+
+.bornedHeader {
+  padding: 15px;
+  text-transform: capitalize;
+}
+
+.bornedHeaderElements {
+  margin-right: 10px;
+}
+
+.bornedBody {
+  margin-top: 10px;
+}
+
+.bornedBodyElements {
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.creativeRows {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+.creativeBodyElements {
+  padding-right: 25px;
+  text-transform: capitalize;
+}
+
+.shortTitleCol {
+  margin-bottom: 10px;
+}
+
+.creativeContainer {
+  text-align: center;
+  padding: 30px;
+}
+
+.text-title {
+  text-transform: capitalize;
+}
+
+.bornedButtons {
+  padding-bottom: 15px;
+}
